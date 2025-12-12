@@ -1,4 +1,8 @@
+
 [build]
   base    = "client"
   publish = "build"
   command = "yarn build"
+
+[build.environment]
+  CI = "false"
